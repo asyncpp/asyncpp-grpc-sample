@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(SampleService)
 
-if(TARGET asyncpp-grpc)
+if(TARGET asyncpp_grpc)
   message(STATUS "Using existing asyncpp-grpc target.")
 else()
   message(STATUS "Missing asyncpp-grpc, using FetchContent to import it.")
